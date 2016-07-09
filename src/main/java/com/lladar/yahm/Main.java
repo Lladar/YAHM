@@ -25,7 +25,7 @@ public class Main {
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent e) {
-        // Pre-Initialization step for items / blocks
+        // Pre-Initialization step for item / block
         this.proxy.preInit(e);
         System.out.println("YAHM Pre-Initialized");
     }
